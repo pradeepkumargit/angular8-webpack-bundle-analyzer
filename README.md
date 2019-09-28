@@ -55,7 +55,7 @@ It will create an interactive treemap visualization of the contents of all your 
 ![webpack bundle analyzer zoomable treemap](https://cloud.githubusercontent.com/assets/302213/20628702/93f72404-b338-11e6-92d4-9a365550a701.gif)
 
 ## My local Angular 8 App Screenshot
-<img width="800" height="800"
+<img width="1000" height="600"
       src="https://raw.githubusercontent.com/pradeepkumargit/angular8-webpack-bundle-analyzer/master/src/assets/images/webpack-budle-analyzer.png">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
