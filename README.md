@@ -1,4 +1,5 @@
 # Angular8 Webpack Bundle Analyzer
+
 <div align="center">
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200"
@@ -8,13 +9,7 @@
   <p>Visualize size of webpack output files with an interactive zoomable treemap.</p>
 </div>
 
-<h2 align="center">Install</h2>
-
-```bash
-# NPM
-npm install --save-dev webpack-bundle-analyzer
-npm install --save-dev webpack-cli
-
+## Why to use Webpack Bundle Analyzer in Angular 7/8 Application
 This module will help you:
 
 1. Realize what is *really* inside your bundle
@@ -25,12 +20,17 @@ This module will help you:
 And the best thing is it supports minified bundles! It parses them to get real size of bundled modules.
 And it also shows their gzipped sizes!
 
+## What is Webpack Bundle Analyzer
+Visualize size of webpack output files with an interactive zoomable treemap.
+
+## How to Install
+npm install --save-dev webpack-bundle-analyzer
+npm install --save-dev webpack-cli
+
 ## How to Use it
 1.run ng serve
 2.ng build --statsJson=true
 3.Add webpack-bundle-analyzer in script object in your angular 7/8 application package.json file
-
-```js
 "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -39,10 +39,13 @@ And it also shows their gzipped sizes!
     "lint": "ng lint",
     "e2e": "ng e2e",
     "analyze":"webpack-bundle-analyzer dist/angular8-webpack-bundle-analyzer/stats-es2015.json"
-  },
-```
+  }
 4.npm run analyze
 5.This command will open a new browser window at port(http://127.0.0.1:8888/), and then you see your application budle utilization.
+
+It will create an interactive treemap visualization of the contents of all your bundles.
+
+![webpack bundle analyzer zoomable treemap](https://cloud.githubusercontent.com/assets/302213/20628702/93f72404-b338-11e6-92d4-9a365550a701.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
 
