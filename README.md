@@ -36,6 +36,7 @@ npm install --save-dev webpack-cli
 1. run ng serve
 2. ng build --statsJson=true
 3. Add webpack-bundle-analyzer in script object in your angular 7/8 application package.json file
+```js
 "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -45,8 +46,9 @@ npm install --save-dev webpack-cli
     "e2e": "ng e2e",
     "analyze":"webpack-bundle-analyzer dist/angular8-webpack-bundle-analyzer/stats-es2015.json"
   }
+```
 4. npm run analyze
-5. This command will open a new browser window at port(http://127.0.0.1:8888/), and then you see your application budle utilization.
+5. This command will open a new browser window at port(http://127.0.0.1:8888/), open this in Chrome browser for better view , and then you see your application budle utilization.
 
 It will create an interactive treemap visualization of the contents of all your bundles.
 
